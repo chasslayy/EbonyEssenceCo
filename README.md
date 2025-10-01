@@ -1,9 +1,14 @@
 # LumiSkin: Photo-Robust Skin Swatch Extraction with Computer Vision
 
 ## Overview
-**LumiSkin** is a computer vision project that focuses on extracting reliable skin color swatches from facial images under varied lighting conditions. Accurate skin color estimation is essential in beauty technology applications such as foundation shade matching, virtual try-on, and personalized skincare.  
 
-Selfies and consumer photos are often distorted by glare, shadows, and inconsistent lighting, making skin tone analysis unreliable. LumiSkin proposes a robust pipeline that isolates stable regions of interest (cheek and forehead), applies glare removal and color constancy methods, and converts results into perceptually uniform color spaces (CIELAB) for consistent skin swatch extraction.
+LumiSkin is designed as more than a research project — it’s a prototype for the next generation of beauty-tech.  
+
+- **True-to-Life Skin Tones** → Reduce distortions from lighting, glare, and shadows so selfies reflect real skin tones.  
+- **Inclusive by Design** → Support accurate shade analysis across the full spectrum of skin tones, ensuring equity in foundation and skincare matching.  
+- **Beauty x Tech Innovation** → Provide a computer vision pipeline that beauty brands can integrate into AR try-on apps, virtual consultations, or shade finder tools.  
+- **Reliable Color Data** → Generate stable, repeatable CIELAB swatches that serve as trusted inputs for AI shade recommendation systems.  
+- **Empowering Customers & Brands** → Help individuals choose products with confidence, while enabling businesses like L’Oréal or Sephora to improve personalization.  
 
 ---
 
