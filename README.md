@@ -36,3 +36,13 @@ LumiSkin is designed as more than a research project — it’s a prototype for 
 ---
 
 ## Repo Structure
+
+## Future Extensions
+While LumiSkin is currently a research prototype, the framework can be extended into real-world applications for both customers and businesses:
+
+- **AR Shade Try-On** → Integrate the skin swatch extraction pipeline into augmented reality apps for live foundation and makeup shade testing.  
+- **E-Commerce Integration** → Provide APIs that beauty brands can embed into their online stores to offer personalized shade recommendations.  
+- **Virtual Consultations** → Power digital skincare and beauty consultations, giving users true-to-life skin analysis directly from selfies.  
+- **Hair & Makeup Expansion** → Extend the pipeline to handle hair segmentation, makeup transfer, or complete face analysis for end-to-end beauty personalization.  
+- **Dermatology Applications** → Adapt LumiSkin for skin health monitoring, enabling consistent color analysis for medical or skincare diagnostics.  
+- **Dataset Contributions** → Curate an open dataset of lighting-varied skin images to advance fairness and inclusivity in beauty AI.  
