@@ -1,4 +1,4 @@
-# LumiSkin: Photo-Robust Skin Swatch Extraction with Computer Vision  
+# HouseofEbony: Photo-Robust Skin Swatch Extraction with Computer Vision  
 
 ## Overview  
 **LumiSkin** is a computer vision project that focuses on extracting reliable skin color swatches from facial images under varied lighting conditions. Accurate skin color estimation is a key challenge in beauty technology, powering applications such as foundation shade matching, AR try-on, personalized skincare, and even dermatology analysis.  
