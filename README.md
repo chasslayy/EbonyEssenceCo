@@ -1,7 +1,7 @@
-# HouseofEbony: Photo-Robust Skin Swatch Extraction with Computer Vision  
+# House of Ebony: Photo-Robust Skin Swatch Extraction with Computer Vision  
 
 ## Overview  
-**HouseofEbony** is a computer vision project that focuses on extracting reliable skin color swatches from facial images under varied lighting conditions. Accurate skin color estimation is a key challenge in beauty technology, powering applications such as foundation shade matching, AR try-on, personalized skincare, and even dermatology analysis.  
+**House of Ebony** is a computer vision project that focuses on extracting reliable skin color swatches from facial images under varied lighting conditions. Accurate skin color estimation is a key challenge in beauty technology, powering applications such as foundation shade matching, AR try-on, personalized skincare, and even dermatology analysis.  
 
 Selfies are often distorted by glare, shadows, and inconsistent lighting, which makes skin tone analysis unreliable. LumiSkin introduces a pipeline that detects stable facial regions, removes glare, applies color constancy algorithms, and generates consistent skin tone swatches in the CIELAB color space.  
 
