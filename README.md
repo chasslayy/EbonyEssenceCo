@@ -1,28 +1,41 @@
-# 🌞 JuaShade
-**Powered by the Sun, Made for Every Shade**  
+# JuaShade: A Computer Vision Pipeline for Skin Tone Analysis and Color Constancy
 
-JuaShade is a computer vision project designed to create **inclusive skin tone detection and shade-matching** tools.  
-By extracting stable skin swatches across varying lighting conditions, JuaShade ensures fairness and accuracy for diverse complexions.  
+## 📌 Overview
+JuaShade is a graduate-level computer vision project focused on **fair and accurate skin tone analysis**.  
+The pipeline addresses challenges with **lighting, glare, and bias** by combining:
+- **ROI extraction** for skin patches
+- **Glare removal** filters
+- **Color constancy** algorithms
+- **Baseline ML (SVM, kNN)** and **advanced CNN classifiers (ResNet, EfficientNet)**
+- **GAN-based enhancement** for realistic preprocessing
 
-This project bridges **AI, beauty, and technology**, with real-world applications for cosmetics, fashion, AR filters, and inclusive design.
-
----
-
-## ✨ Features
-- 🎯 **Region of Interest (ROI) Detection** – identifies forehead and cheek regions for accurate sampling  
-- 🌟 **Glare Removal** – reduces highlights to achieve truer color readings  
-- 🎨 **Color Constancy Algorithms** – implements Gray-World, Shades-of-Gray, and Retinex methods  
-- 📊 **CIELAB Conversion** – transforms RGB values into perceptual color space for accuracy  
-- 🔍 **ΔE Variance Evaluation** – quantifies color differences with human-perceptual relevance  
+The goal is to improve inclusivity and fairness in AI systems used for dermatology, cosmetology, and facial recognition.
 
 ---
 
-## 💼 Applications
-- **Beauty & Skincare:** Foundation and concealer shade-matching  
-- **Fashion & Retail:** Color harmonization across skin tones for clothing/accessories  
-- **Media & Photography:** Inclusive filters and editing tools for every complexion  
-- **AI Research:** Fairness benchmarking in skin detection models  
+## 📂 Project Structure
+# JuaShade: A Computer Vision Pipeline for Skin Tone Analysis and Color Constancy
+
+## 📌 Overview
+JuaShade is a graduate-level computer vision project focused on **fair and accurate skin tone analysis**.  
+The pipeline addresses challenges with **lighting, glare, and bias** by combining:
+- **ROI extraction** for skin patches
+- **Glare removal** filters
+- **Color constancy** algorithms
+- **Baseline ML (SVM, kNN)** and **advanced CNN classifiers (ResNet, EfficientNet)**
+- **GAN-based enhancement** for realistic preprocessing
+
+The goal is to improve inclusivity and fairness in AI systems used for dermatology, cosmetology, and facial recognition.
 
 ---
 
-## 🚀 Project Structure
+## 📂 Project Structure
+
+---
+
+## ⚙️ Installation
+Clone this repository:
+```bash
+git clone https://github.com/yourusername/JuaShade.git
+cd JuaShade
+python src/pipeline.py
