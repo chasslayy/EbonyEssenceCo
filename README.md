@@ -14,25 +14,3 @@ This project develops a pipeline that:
 The goal is to create a more **inclusive AI system** that improves reliability for applications in **dermatology, cosmetics, and computer vision fairness research**.  
 
 ---
-
-## 📂 Project Structure  
-
----
-
-## ⚙️ Installation  
-Clone the repository:  
-```bash
-git clone https://github.com/chasslayy/Jua-Shade.git
-cd Jua-Shade
-pip install -r requirements.txt
-
-python src/pipeline.py
-
-
----
-
-✅ Just replace your current `README.md` file with this text.  
-
-Would you like me to also **make the requirements.txt file for you**, so you can drop it in your repo right now and your professor can install everything easily?
-
-
