@@ -1,6 +1,8 @@
-## 📌 Overview
+# JuaShade: A Computer Vision Pipeline for Skin Tone Analysis and Color Constancy  
+
+## 📌 Overview  
 **JuaShade** is a computer vision project designed to improve **fair and accurate skin tone analysis**.  
-Traditional vision systems often misinterpret skin tones because of **lighting variations, glare, and dataset bias**.  
+Traditional vision systems often misinterpret skin tones due to **lighting variations, glare, and dataset bias**.  
 
 This project develops a pipeline that:  
 - Extracts **skin regions of interest (ROI)**  
@@ -9,5 +11,10 @@ This project develops a pipeline that:
 - Compares **classical ML models (SVM, kNN)** with **deep learning models (ResNet, EfficientNet)**  
 - Explores **GAN-based enhancement** for preprocessing  
 
-The goal is to create a more **inclusive AI system** that improves reliability for applications in **dermatology, cosmetics, and computer vision fairness research**.
+The goal is to create a more **inclusive AI system** that improves reliability for applications in **dermatology, cosmetics, and computer vision fairness research**.  
+
+---
+
+## 📂 Project Structure  
+
 
