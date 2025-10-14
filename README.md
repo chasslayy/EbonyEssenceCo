@@ -23,6 +23,8 @@ The goal is to develop a fair, inclusive, and robust system for use in dermatolo
 	•	Libraries: OpenCV, scikit-image, scikit-learn, NumPy, PyTorch
 	•	Tools: Jupyter Notebook, Matplotlib
 
+## 🧱 Pipeline Overview  
+```text
 Input Image
    ↓
 Skin ROI Extraction
