@@ -43,3 +43,34 @@ Tone Classification + Fairness Evaluation
 ```bash
 git clone https://github.com/chasslayy/Jua-Shade.git
 cd Jua-Shade
+
+---
+
+### 🗂️ 6️⃣ Project Structure ✅ *(goes right after Setup Instructions)*
+This shows your folder organization. Add it right below the setup section.
+
+```markdown
+## 📁 Project Structure
+```text
+Jua-Shade/
+├── data/               # Raw and processed image data
+├── notebooks/          # Jupyter notebooks for experimentation
+├── src/                # Core source code
+├── results/            # Outputs, metrics, and visualizations
+├── requirements.txt
+└── README.md
+
+---
+
+### 👩🏽‍💻 7️⃣ Author ✅ *(goes near the bottom)*
+This section always goes at the bottom of your README — before the license.
+
+```markdown
+## 👩🏽‍💻 Author
+**Chastity Lewis**  
+Graduate Student • Computer Vision & Machine Learning  
+📍 Mercy University  
+🔗 [LinkedIn](https://www.linkedin.com/in/chasslayy) | [GitHub](https://github.com/chasslayy)
+
+## 📜 License
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
