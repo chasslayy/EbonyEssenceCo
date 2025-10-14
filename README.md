@@ -1,11 +1,18 @@
-# 🌞 JuaShade: A Computer Vision Pipeline for Skin Tone Analysis & Color Constancy
-[![Python](...)](...)
-[![PyTorch](...)](...)
+🧠 Overview
 
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
+JuaShade is a computer vision research project that improves fair and accurate skin tone analysis.
+Traditional vision systems often misinterpret skin tones due to lighting variation, glare, and dataset bias, which can lead to inaccurate or biased outcomes.
 
-pip install -r requirements.txt
+This project creates a modular pipeline that:
+	•	Extracts skin regions of interest (ROI)
+	•	Removes glare and reflections
+	•	Applies color constancy (Gray-World, Retinex)
+	•	Compares SVM/k-NN vs. ResNet/EfficientNet
+	•	Explores GAN-based tone enhancement
 
-jupyter notebook notebooks/skin_tone_analysis.ipynb
+The goal is to build a fair, inclusive, and robust AI model for use in dermatology, beauty tech, and fairness research.
+
+⚙️ Tech Stack
+	•	Languages: Python
+	•	Libraries: OpenCV, scikit-image, scikit-learn, NumPy, PyTorch
+	•	Tools: Jupyter Notebook, Matplotlib
