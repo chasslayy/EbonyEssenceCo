@@ -62,9 +62,6 @@ Jua-Shade/
 
 ---
 
-### 👩🏽‍💻 7️⃣ Author ✅ *(goes near the bottom)*
-This section always goes at the bottom of your README — before the license.
-
 ```markdown
 ## 👩🏽‍💻 Author
 **Chastity Lewis**  
