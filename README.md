@@ -22,3 +22,15 @@ The goal is to develop a fair, inclusive, and robust system for use in dermatolo
 	•	Languages: Python
 	•	Libraries: OpenCV, scikit-image, scikit-learn, NumPy, PyTorch
 	•	Tools: Jupyter Notebook, Matplotlib
+
+Input Image
+   ↓
+Skin ROI Extraction
+   ↓
+Glare / Reflection Removal
+   ↓
+Color Constancy Correction
+   ↓
+Feature Extraction (ML/DL)
+   ↓
+Tone Classification + Fairness Evaluation
