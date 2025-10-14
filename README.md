@@ -44,3 +44,49 @@ python scripts/train_classical.py \
   --features hog \
   --models svm knn \
   --out_dir results/classical
+
+python scripts/evaluate.py \
+  --pred_dirs results/classical results/deep \
+  --metric_groups accuracy deltaE fairness \
+  --out_dir results/metrics
+
+python scripts/gan_enhance.py \
+  --in_dir data/raw \
+  --out_dir data/gan_enhanced \
+  --gan pix2pix
+
+jupyter notebook notebooks/00_quick_demo.ipynb
+
+JuaShade/
+├─ data/
+│  ├─ raw/              # raw images (not committed)
+│  └─ processed/        # preprocessed outputs
+├─ notebooks/
+│  ├─ 00_quick_demo.ipynb
+│  ├─ 10_preprocess_examples.ipynb
+│  └─ 20_model_eval.ipynb
+├─ src/
+│  ├─ preprocessing/
+│  │  ├─ roi.py
+│  │  ├─ glare.py
+│  │  └─ color_constancy.py
+│  ├─ models/
+│  │  ├─ classical.py
+│  │  ├─ resnet.py
+│  │  └─ efficientnet.py
+│  └─ evaluation/
+│     ├─ metrics.py
+│     └─ fairness.py
+├─ scripts/
+│  ├─ prepare_data.py
+│  ├─ preprocess.py
+│  ├─ train_classical.py
+│  ├─ train_deep.py
+│  ├─ gan_enhance.py
+│  └─ evaluate.py
+├─ results/
+│  ├─ classical/
+│  ├─ deep/
+│  └─ metrics/
+├─ requirements.txt
+└─ README.md
