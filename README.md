@@ -90,3 +90,10 @@ JuaShade/
 │  └─ metrics/
 ├─ requirements.txt
 └─ README.md
+
+@misc{JuaShade2025,
+  author = {Lewis, Chastity},
+  title  = {JuaShade: A Computer Vision Pipeline for Skin Tone Analysis and Color Constancy},
+  year   = {2025},
+  url    = {https://github.com/chasslayy/Jua-Shade}
+}
