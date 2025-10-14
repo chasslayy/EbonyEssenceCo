@@ -36,3 +36,10 @@ Color Constancy Correction
 Feature Extraction (ML/DL)
    ↓
 Tone Classification + Fairness Evaluation
+
+## 🚀 Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/chasslayy/Jua-Shade.git
+cd Jua-Shade
